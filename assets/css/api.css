@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(27, 58, 116, 0.425);
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(9, 9, 65);
+}
+
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(14, 14, 104);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 75%;
+    border-radius: 16px;
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    color: rgb(12, 12, 109);
+}
