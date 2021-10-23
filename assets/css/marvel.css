@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/48/7b/ce/487bce3e0df1952bdd9c27da2f9c6970.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+/* img {
+    border-radius: 2%
+} */
+
+
+.header {
+    display: grid;
+    justify-content: center;
+    margin: 5px;
+}
+
+.heading {
+    text-align: center;
+    color: rgb(196, 228, 247);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+    font-weight: 750;
+}
+
+
+.hero {
+    padding-bottom: 7px;
+    border: 2px solid rgb(37, 4, 59);
+    border-radius: 16px;
+    text-align: center;
+    background-color: rgba(137, 189, 209, 0.644);
+    margin: 5px;
+}
+
+.text {
+    color: rgb(56, 3, 3);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.title {
+    color: rgb(48, 5, 10);
+    font-size: 20px;
+
+}
+
+.subtitle {
+    color: rgb(18, 17, 97);
+    font-size: 17px;
+    word-wrap: break-word;
+    padding: 2px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.pic {
+    width: 76%;
+    border-radius: 50%;
+    border: 3px solid rgb(29, 4, 46);
+    box-shadow: 0 0 7px #666;
+}
+
+.btn {
+    border-radius: 50%;
+    background-color: rgba(58, 185, 147, 0.425);
+    color: rgb(36, 3, 97);
+    /* border: rgb(255, 0, 157); */
+}
+
+#marvel {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+}
+
+#gradeInput {
+    width: 14%;
+    border-radius: 33%;
+    margin: 2%;
+}
